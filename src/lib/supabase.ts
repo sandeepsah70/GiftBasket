@@ -4,3 +4,4 @@ const supabaseUrl = import.meta.env.VITE_SUPABASE_URL || 'https://mnyfykhimdkigz
 const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1ueWZ5a2hpbWRraWd6Y2V6bG92Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTU1MTg3ODMsImV4cCI6MjExMTA5NDc4M30.v3btrRhRGBnHeoj5Sx9ihJhHiXp7LMwAFBnkOzjTIDY'
 
 export const supabase = createClient(supabaseUrl, supabaseAnonKey)
+
